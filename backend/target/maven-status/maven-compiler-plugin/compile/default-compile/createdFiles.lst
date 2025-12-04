@@ -1,0 +1,12 @@
+com\invoiceapp\entity\ServiceItem.class
+com\invoiceapp\repository\InvoiceRepository.class
+com\invoiceapp\service\EmailService.class
+com\invoiceapp\controller\InvoiceController.class
+com\invoiceapp\InvoiceManagementApplication$CorsConfigurer.class
+com\invoiceapp\service\PdfService.class
+com\invoiceapp\service\InvoiceService.class
+com\invoiceapp\dto\EmailRequest.class
+com\invoiceapp\dto\InvoiceDTO.class
+com\invoiceapp\InvoiceManagementApplication.class
+com\invoiceapp\entity\Invoice.class
+com\invoiceapp\dto\ApiResponse.class
