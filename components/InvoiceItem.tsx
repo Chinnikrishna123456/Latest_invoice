@@ -40,7 +40,7 @@ export const InvoiceItem: React.FC<InvoiceItemProps> = ({ invoice, onEdit, onDel
             
             <div className="px-5 py-3 bg-gray-50 flex items-center justify-between">
                 <p className="text-xs text-gray-600">{invoice.employeeEmail}</p>
-                <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="flex items-center gap-2">
                     <ActionButton onClick={() => onEdit(invoice)} title="Edit" variant="info">{ICONS.EDIT}</ActionButton>
                     <ActionButton onClick={() => onDownload(invoice)} title="Download PDF" variant="info">{ICONS.DOWNLOAD}</ActionButton>
                     <ActionButton onClick={() => onSendEmail(invoice.employeeEmail)} title="Send Email" variant="info">{ICONS.EMAIL}</ActionButton>
