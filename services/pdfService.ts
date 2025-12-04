@@ -1,10 +1,8 @@
 import { Invoice } from '../types';
-
-// These are loaded from CDN in index.html, so we declare them for TypeScript
-declare const jspdf: any;
+import jsPDF from 'jspdf';
+import 'jspdf-autotable';
 
 export const generateInvoicePDF = (invoice: Invoice) => {
-    const { jsPDF } = jspdf;
     const doc = new jsPDF();
 
     // Calculate totals
